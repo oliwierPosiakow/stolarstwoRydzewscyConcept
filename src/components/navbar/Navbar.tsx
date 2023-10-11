@@ -22,7 +22,7 @@ export default function Navbar(): JSX.Element {
                 <li className={"nav_links-link"} onClick={handleNavbar}><a href="/#contact">Kontakt</a></li>
             </ul>
             <button onClick={handleNavbar} className={"nav_button"}>
-                {visible ? <FaTimes size={"2em"} style={'nav_button-icon'}/> : <FaBars size={"2em"} style={'nav_button-icon'}/>}
+                {visible ? <FaTimes size={"2em"}/> : <FaBars size={"2em"}/>}
             </button>
         </nav>
     )

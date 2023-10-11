@@ -1,3 +1,11 @@
-
-
-/*# sourceMappingURL=colors.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;800&family=Roboto:wght@400;500;700&display=swap");
+:root {
+  --color-white: #f0f0f0ff;
+  --color-black: #1e1e1eff;
+  --color-brown-primary: #43281cff;
+  --color-brown-secondary: #48392aff;
+  --color-accent: #f96f5dff;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-playfairDisplay: "Playfair Display", serif;
+  --font-roboto: "Roboto", sans-serif;
+}/*# sourceMappingURL=colors.css.map */

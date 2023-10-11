@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"colors.css"}
+{"version":3,"sources":["colors.scss","colors.css"],"names":[],"mappings":"AAMQ,4LAAA;AAQR;EACE,wBAAA;EACA,wBAAA;EACA,gCAAA;EACA,kCAAA;EACA,yBAAA;EAEA,2CAAA;EACA,iDAAA;EACA,mCAAA;ACbF","file":"colors.css"}

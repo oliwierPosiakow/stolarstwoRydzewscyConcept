@@ -1,5 +1,8 @@
 @use "./assets/styles/colors";
+//
 
 h1 {
-  color: colors.$antiflash-white;
+  // color: colors.$antiflash-white;
+  color: var(--color-accent);
+  font-family: var(--font-playfairDisplay);
 }

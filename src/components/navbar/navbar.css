@@ -66,7 +66,7 @@
     padding: 1em;
     min-width: 100vw;
     height: calc(100vh - 90px);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     z-index: 1;
     justify-content: start;
     align-items: flex-start;
@@ -85,6 +85,4 @@
 }
 .shown {
   left: 0;
-}
-
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navbar.css.map */

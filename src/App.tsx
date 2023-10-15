@@ -10,7 +10,6 @@ function App(): JSX.Element {
       <h1>App</h1>
       <Contact />
       <Footer />
-
     </>
   );
 }

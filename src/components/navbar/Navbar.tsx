@@ -1,5 +1,4 @@
 import './navbar.css';
-import '../../assets/styles/colors.scss'
 import {FaBars, FaTimes} from "react-icons/fa";
 import {useState} from "react";
 

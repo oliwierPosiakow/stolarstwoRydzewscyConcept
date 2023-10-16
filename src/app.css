@@ -4,7 +4,7 @@
   --color-black: #1e1e1eff;
   --color-brown-primary: #43281cff;
   --color-brown-secondary: #48392aff;
-  --color-accent: #f96f5dff;
+  --color-accent: #BF7B57;
   --font-montserrat: "Montserrat", sans-serif;
   --font-playfairDisplay: "Playfair Display", serif;
   --font-roboto: "Roboto", sans-serif;
@@ -25,6 +25,11 @@ h1 {
   background-color: #dfb8a5;
   border-radius: 20px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.36);
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1680px;
 }
 
 /*# sourceMappingURL=app.css.map */

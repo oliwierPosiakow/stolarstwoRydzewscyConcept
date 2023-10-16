@@ -54,11 +54,12 @@
 
 @media screen and (max-width: 600px) {
   .nav {
+    z-index: 10;
     justify-content: space-between;
     &_links {
       position: absolute;
       right: -100%;
-      top: 90px;
+      top: 89px;
       flex-direction: column;
       padding: 1em;
       min-width: 100vw;

@@ -12,11 +12,11 @@
 
 .hero {
   position: relative;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 89px);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
+  padding: 3.5em;
 }
 .hero:before {
   content: "";
@@ -66,6 +66,30 @@
 .hero-content_button:hover {
   opacity: 0.9;
   transform: scale(1.02);
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 0;
+  }
+  .hero-content {
+    justify-content: center !important;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+  }
+  .hero-content_title {
+    font-size: 2rem;
+    color: var(--color-white);
+  }
+  .hero-content_text {
+    font-size: 1rem;
+    color: var(--color-white);
+  }
+  .hero-content_button {
+    align-self: center;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=hero.css.map */

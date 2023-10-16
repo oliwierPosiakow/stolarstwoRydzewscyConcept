@@ -36,17 +36,19 @@ export default function Comments (): JSX.Element {
                 <h2 className="comments-title">Opinie klientów</h2>
                 <p className="comments-subtitle">Oto kilka opinii naszych zadowolonych klientów</p>
                 <div className="comments-container">
-                    <p className="comments-container_text">
-                        {data[activeCommentIndex].content}
-                    </p>
-                </div>
-                <div className="comments-buttons">
-                    <button onClick={handlePrevousComment} className="comments-buttons_backwards">
-                        <FaArrowLeft/>
-                    </button>
-                    <button onClick={handleNextComment} className="comments-buttons_forwards">
-                        <FaArrowRight/>
-                    </button>
+                    <div className="comments-container_comment">
+                        <p className="comments-container_text">
+                            "{data[activeCommentIndex].content}"
+                        </p>
+                    </div>
+                    <div className="comments-buttons">
+                        <button onClick={handlePrevousComment} className="comments-buttons_backwards">
+                            <FaArrowLeft size={16} color={'#f0f0f0'}/>
+                        </button>
+                        <button onClick={handleNextComment} className="comments-buttons_forwards">
+                            <FaArrowRight size={16} color={'#f0f0f0'}/>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

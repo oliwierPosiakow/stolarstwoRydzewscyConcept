@@ -4,12 +4,14 @@ import Footer from "./components/footer/Footer.tsx";
 import Navbar from "./components/navbar/Navbar.tsx";
 import Comments from "./components/comments/Comments.tsx";
 import Hero from "./components/hero/Hero.tsx";
+import Products from "./components/products/Products.tsx";
 
 function App(): JSX.Element {
   return (
     <>
       <Navbar />
       <Hero />
+      <Products />
       <Comments />
       <Contact />
       <Footer />

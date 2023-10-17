@@ -10,9 +10,9 @@ export default function Footer() {
         href="https://www.facebook.com/profile.php?id=100031545596353"
         target="_black"
       >
-        <FaFacebook />
+        <FaFacebook size={22} color={"#07484A"} />
       </a>
-      <div className="company_address--title">Adres</div>
+      <div className="company_address--title">Adres:</div>
       <div className="company_address">ul. Stanisława Wyspiańskiego 2</div>
       <div className="company_address">80-434 Gdańsk-Wrzeszcz</div>
       {/* copyrights?? */}

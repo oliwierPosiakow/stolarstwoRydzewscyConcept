@@ -1,3 +1,23 @@
-
-
-/*# sourceMappingURL=footer.css.map */
+.company {
+  width: 100%;
+  padding: 40px 10%;
+  background-color: #f3f6f5;
+  position: static;
+  bottom: 0;
+  margin-top: 50px;
+}
+.company_name {
+  font-family: var(--font-playfairDisplay);
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+.company_address {
+  font-family: var(--font-montserrat);
+  font-size: 14px;
+}
+.company_address--title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+}/*# sourceMappingURL=footer.css.map */

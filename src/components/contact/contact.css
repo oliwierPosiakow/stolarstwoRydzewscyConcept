@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr;
   width: 80%;
   margin: 0 auto;
-  height: 400px;
   color: var(--color-white);
 }
 .contact_wrapper--map-panel iframe {
@@ -112,6 +111,4 @@
     font-weight: normal;
     padding: 0 50px;
   }
-}
-
-/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */

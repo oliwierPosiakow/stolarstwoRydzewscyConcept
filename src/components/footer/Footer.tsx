@@ -15,6 +15,8 @@ export default function Footer() {
       <div className="company_address--title">Adres:</div>
       <div className="company_address">ul. Stanisława Wyspiańskiego 2</div>
       <div className="company_address">80-434 Gdańsk-Wrzeszcz</div>
+      <div className="company_address--title">Numer kontaktowy:</div>
+      <div className="company_address">603 585 457 lub 600 135 363</div>
       {/* copyrights?? */}
     </footer>
   );

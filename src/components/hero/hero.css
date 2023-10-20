@@ -5,6 +5,7 @@
   --color-brown-primary: #43281cff;
   --color-brown-secondary: #48392aff;
   --color-accent: #bf7b57;
+  --color-accent2: #b1d0c1;
   --font-montserrat: "Montserrat", sans-serif;
   --font-playfairDisplay: "Playfair Display", serif;
   --font-roboto: "Roboto", sans-serif;
@@ -91,4 +92,6 @@
     align-self: center;
     width: 100%;
   }
-}/*# sourceMappingURL=hero.css.map */
+}
+
+/*# sourceMappingURL=hero.css.map */

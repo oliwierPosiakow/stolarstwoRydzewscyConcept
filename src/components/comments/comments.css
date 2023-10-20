@@ -5,6 +5,7 @@
   --color-brown-primary: #43281cff;
   --color-brown-secondary: #48392aff;
   --color-accent: #bf7b57;
+  --color-accent2: #b1d0c1;
   --font-montserrat: "Montserrat", sans-serif;
   --font-playfairDisplay: "Playfair Display", serif;
   --font-roboto: "Roboto", sans-serif;
@@ -131,4 +132,6 @@
   .comments-container_text {
     font-size: 1.15rem;
   }
-}/*# sourceMappingURL=comments.css.map */
+}
+
+/*# sourceMappingURL=comments.css.map */

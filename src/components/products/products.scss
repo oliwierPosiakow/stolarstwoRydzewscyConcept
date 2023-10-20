@@ -1,8 +1,6 @@
 .products-container {
-  margin-top: 100px;
   width: 100%;
-  margin-bottom: 50px;
-  padding-top: 50px;
+  margin: 50px 0;
   &--title {
     text-align: center;
     font-family: var(--font-playfairDisplay);
@@ -20,26 +18,7 @@
     flex-direction: row;
     gap: 32px;
     width: 80%;
-    overflow-x: scroll;
-    margin: 0 auto;
-
-    &::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-      border-radius: 10px;
-      background-color: var(--color-white);
-    }
-
-    &::-webkit-scrollbar {
-      width: 7px;
-      height: 7px;
-      background-color: var(--color-white);
-    }
-
-    &::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      -webkit-box-shadow: inset 0 0 6px rgba(219, 219, 219, 0.197);
-      background-color: var(--color-brown-primary);
-    }
+    margin: 0 auto 54px;
 
     .product-image {
       height: 350px;
@@ -48,11 +27,12 @@
       object-fit: cover;
       border-radius: 20px;
       margin-bottom: 20px;
+      scroll-snap-align: center;
+      cursor: grab;
     }
   }
   a {
     margin: 0 auto;
-    margin-top: 100px;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -62,10 +42,12 @@
     background-color: var(--color-brown-primary);
     transition: all 0.2s;
     border-radius: 13px;
+    cursor: pointer;
     @media screen and (max-width: 400px) {
       margin-top: 60px;
     }
     .anchor-text {
+      cursor: inherit;
       text-align: center;
       font-size: 22px;
       letter-spacing: -0.4px;

@@ -9,12 +9,19 @@ import Products from "./components/products/Products.tsx";
 function App(): JSX.Element {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Products />
-      <Comments />
-      <Contact />
-      <Footer />
+        <header>
+            <Navbar />
+            <Hero />
+        </header>
+        <main>
+            <Products />
+            <Comments />
+            <Contact />
+        </main>
+        <footer>
+            <Footer />
+        </footer>
+
     </>
   );
 }

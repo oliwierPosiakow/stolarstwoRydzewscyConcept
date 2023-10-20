@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar.tsx";
 import Comments from "./components/comments/Comments.tsx";
 import Hero from "./components/hero/Hero.tsx";
 import Products from "./components/products/Products.tsx";
+import About from "./components/about/About.tsx";
 
 function App(): JSX.Element {
   return (
@@ -12,6 +13,7 @@ function App(): JSX.Element {
       <Navbar />
       <Hero />
       <Products />
+        <About/>
       <Comments />
       <Contact />
       <Footer />

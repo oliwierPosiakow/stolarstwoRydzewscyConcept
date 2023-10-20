@@ -5,6 +5,7 @@
   --color-brown-primary: #43281cff;
   --color-brown-secondary: #48392aff;
   --color-accent: #bf7b57;
+  --color-accent2: #b1d0c1;
   --font-montserrat: "Montserrat", sans-serif;
   --font-playfairDisplay: "Playfair Display", serif;
   --font-roboto: "Roboto", sans-serif;
@@ -15,19 +16,9 @@ h1 {
   font-family: var(--font-playfairDisplay);
 }
 
-.animation-container {
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #dfb8a5;
-  border-radius: 20px;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.36);
-}
-
 .content-wrapper {
   width: 100%;
   max-width: 1680px;
-}/*# sourceMappingURL=app.css.map */
+}
+
+/*# sourceMappingURL=app.css.map */
